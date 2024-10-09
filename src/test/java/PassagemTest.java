@@ -97,7 +97,7 @@ public class PassagemTest {
        driver.findElement(By.xpath("/html/body/div[2]/form/div[11]/div/input")).click();
 
        //Verifica se a compra foi realizada com sucesso
-       //assertEquals(dropdown, dropdown);
+       assertEquals("Thank you for your purchase today!", driver.findElement(By.xpath("/html/body/div[2]/div/h1")).getText());
 
  
     }
