@@ -99,6 +99,5 @@ public class PassagemTest {
        //Verifica se a compra foi realizada com sucesso
        assertEquals("Thank you for your purchase today!", driver.findElement(By.xpath("/html/body/div[2]/div/h1")).getText());
 
- 
     }
 }
